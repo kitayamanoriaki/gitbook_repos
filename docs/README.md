@@ -19,5 +19,19 @@ Once you're strong enough, save the world:
 echo 'You got to trust me on this, I saved the world'
 ```
 
+{% page-ref page="./" %}
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% file src="../.gitbook/assets/snapcrab\_noname\_2018-12-16\_22-31-45\_no-00.png" %}
+
 
 
