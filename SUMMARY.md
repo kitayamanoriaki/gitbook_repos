@@ -1,4 +1,6 @@
 # Table of contents
 
-- [Initial page](docs/README.md)
-  - [NewPage!!](docs/newpage.md)
+* [Introduction](README.md)
+* [Initial page](docs/README.md)
+  * [NewPage!!](docs/newpage.md)
+
