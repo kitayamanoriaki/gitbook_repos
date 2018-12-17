@@ -3,3 +3,4 @@
 *.code-workspace
 update_summary.bat
 create_summary.bat
+node_modules/
