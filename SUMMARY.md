@@ -10,5 +10,3 @@
 - Substance Designer
   * [00_基本的な用語メモ](docs/SubstanceDesigner/00_基本的な用語メモ.md)
   * [01_シーンを作成する](docs/SubstanceDesigner/01_シーンを作成する.md)
-- 個人的なメモ
-  * [調べてる途中であとで作ると便利だと思ったもの](docs/個人的なメモ/調べてる途中であとで作ると便利だと思ったもの.md)
