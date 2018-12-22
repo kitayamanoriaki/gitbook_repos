@@ -1,8 +1,11 @@
 # Your Book Title
 
 - 10 Blender
+  - EEVEE
+    * [AOを作成する](docs/10_Blender/EEVEE/AOを作成する.md)
   - Scripts
     * [Blenderの開発環境を作る](docs/10_Blender/Scripts/Blenderの開発環境を作る.md)
+  * [各種ショートカットまとめ](docs/10_Blender/各種ショートカットまとめ.md)
 - 10 Programming
   - VS Code
     * [00_npmの基本](docs/10_Programming/VSCode/00_npmの基本.md)
