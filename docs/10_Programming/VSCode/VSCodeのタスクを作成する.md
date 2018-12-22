@@ -88,6 +88,19 @@ move %~dp0\docs\SUMMARY.md %~dp0\SUMMARY.md
 このコマンドの実行は、現在の VSCode のプロジェクトになっているので  
 コマンド部分を batch ファイル名にすれば OK。
 
+毎度設定するのはめんどくさいので、簡単に実行出来るように  
+ビルドタスクに指定する。  
+その場合は、tasks.json 内の task の{}内に
+
+```json
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+```
+
+を追加する。
+
 ## 参考
 
 - https://qiita.com/suzuki_sh/items/968ba9aeb312c8742f4e

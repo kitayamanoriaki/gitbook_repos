@@ -6,7 +6,11 @@
     {
       "label": "update_summary",
       "type": "shell",
-      "command": "update_summary"
+      "command": "update_summary",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
