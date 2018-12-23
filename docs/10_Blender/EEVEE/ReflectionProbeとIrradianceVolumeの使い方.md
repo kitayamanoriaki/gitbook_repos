@@ -60,6 +60,12 @@ RightProbe が影響されるのは、Probe の Radius の範囲内のみ。
 
 中途半端に Probe がかかってしまうと、Reflection の表示がおかしなことになる。
 
+![](https://gyazo.com/8eeb1b18fe3f15b9e4940b0cf6603085.png)
+
+Probe の End を小さくすると、範囲外にあるオブジェクトは映り込まなくなる。  
+ので、天球などを Probe には反映したくない場合などは、End 側を調整して  
+どこまでを映り込みに含めるかを調整する。
+
 ### 現状改善・理由がちゃんと分かっていない現象
 
 ![](https://gyazo.com/35cdc7303c9da89a9fb75b8f21a6e357.png)
