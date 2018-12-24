@@ -19,6 +19,7 @@
     * [00_npmの基本](docs/10_Programming/VSCode/00_npmの基本.md)
     * [VSCodeのタスクを作成する](docs/10_Programming/VSCode/VSCodeのタスクを作成する.md)
     * [VSCodeの拡張機能を作る](docs/10_Programming/VSCode/VSCodeの拡張機能を作る.md)
+    * [キーバインドに指定スニペットを挿入を指定](docs/10_Programming/VSCode/キーバインドに指定スニペットを挿入を指定.md)
 - 10 Substance Designer
   * [00_基本的な用語メモ](docs/10_SubstanceDesigner/00_基本的な用語メモ.md)
   * [01_シーンを作成する](docs/10_SubstanceDesigner/01_シーンを作成する.md)
