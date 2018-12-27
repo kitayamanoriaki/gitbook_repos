@@ -1,9 +1,5 @@
 # DepthOfFuild を使用する
 
-{% hint style="info" %}
-現状、数値が一部謎挙動あり？
-{% endhint %}
-
 ## DOF を有効にする
 
 ![](https://gyazo.com/f61ddcee8fdba6b0692a60f1443544ac.png)
@@ -21,7 +17,7 @@ DOF の細かい設定は、指定のレンダリングカメラ内に存在し�
 ![](https://gyazo.com/57e8b0bef6d396038a0cc2c8b5095761.png)
 
 Focus on Object に、ピントを合わせたいオブジェクトを指定する。  
-続いて、Focus Distance でピントが合う範囲を指定する。（現状、効果がない？）
+続いて、Focus Distance でピントが合う範囲を指定する。
 
 Aperture が、レンズ側の設定。
 
@@ -33,7 +29,3 @@ Aperture が、レンズ側の設定。
 | Ratio     | ボケの歪みの量の指定？                                                |
 
 ![](https://gyazo.com/6f0752302c2a9ae699f073cc2d1d3827.png)
-
-カメラのボケ的の関係性とは近い（望遠、被写体に寄る）とボケ幅が大きくなるのは同じだが  
-FocusDistanceは聞いておらず、F値の基準も謎。  
-FocusDistanceのアトリビュートが薄灰色なので、そもそも現状無効かほかに設定方法がある？  
