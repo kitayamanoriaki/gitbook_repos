@@ -1,0 +1,785 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Volumetricを使用する · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ガラス質感なマテリアルを作成.html" />
+    
+    
+    <link rel="prev" href="SSSを設定する.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索すると入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    10 Blender
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    EEVEE
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="AOを作成する.html">
+            
+                <a href="AOを作成する.html">
+            
+                    
+                    AOを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="DepthOfFuildを使用する.html">
+            
+                <a href="DepthOfFuildを使用する.html">
+            
+                    
+                    DepthOfFuildを使用する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="MixRGBノードメモ.html">
+            
+                <a href="MixRGBノードメモ.html">
+            
+                    
+                    MixRGBノードメモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="ReflectionProbeとIrradianceVolumeの使い方.html">
+            
+                <a href="ReflectionProbeとIrradianceVolumeの使い方.html">
+            
+                    
+                    ReflectionProbeとIrradianceVolumeの使い方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="ScreenSpaceReflectionsを使用した反射.html">
+            
+                <a href="ScreenSpaceReflectionsを使用した反射.html">
+            
+                    
+                    ScreenSpaceReflectionsを使用した反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="SSSを設定する.html">
+            
+                <a href="SSSを設定する.html">
+            
+                    
+                    SSSを設定する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.7" data-path="Volumetricを使用する.html">
+            
+                <a href="Volumetricを使用する.html">
+            
+                    
+                    Volumetricを使用する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="ガラス質感なマテリアルを作成.html">
+            
+                <a href="ガラス質感なマテリアルを作成.html">
+            
+                    
+                    ガラス質感なマテリアルを作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    Scripts
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../Scripts/Blenderの開発環境を作る.html">
+            
+                <a href="../Scripts/Blenderの開発環境を作る.html">
+            
+                    
+                    Blenderの開発環境を作る
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../Scripts/VSCodeでAddon開発.html">
+            
+                <a href="../Scripts/VSCodeでAddon開発.html">
+            
+                    
+                    VSCodeでAddon開発
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    基本操作
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../基本操作/Faceに対してマテリアルをアサイン.html">
+            
+                <a href="../基本操作/Faceに対してマテリアルをアサイン.html">
+            
+                    
+                    Faceに対してマテリアルをアサイン
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../基本操作/Pivot位置調整.html">
+            
+                <a href="../基本操作/Pivot位置調整.html">
+            
+                    
+                    Pivot位置調整
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../各種ショートカットまとめ.html">
+            
+                <a href="../各種ショートカットまとめ.html">
+            
+                    
+                    各種ショートカットまとめ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    10 Programming
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    Python 3
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../10_Programming/Python3#">
+            
+                <span>
+            
+                    
+                    Import関係の構造
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    VS Code
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../10_Programming/VSCode/00_npmの基本.html">
+            
+                <a href="../../10_Programming/VSCode/00_npmの基本.html">
+            
+                    
+                    00_npmの基本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../10_Programming/VSCode/VSCodeのタスクを作成する.html">
+            
+                <a href="../../10_Programming/VSCode/VSCodeのタスクを作成する.html">
+            
+                    
+                    VSCodeのタスクを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../10_Programming/VSCode/VSCodeの拡張機能を作る.html">
+            
+                <a href="../../10_Programming/VSCode/VSCodeの拡張機能を作る.html">
+            
+                    
+                    VSCodeの拡張機能を作る
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../../10_Programming/VSCode/キーバインドに指定スニペットを挿入を指定.html">
+            
+                <a href="../../10_Programming/VSCode/キーバインドに指定スニペットを挿入を指定.html">
+            
+                    
+                    キーバインドに指定スニペットを挿入を指定
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    10 Substance Designer
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../10_SubstanceDesigner/00_基本的な用語メモ.html">
+            
+                <a href="../../10_SubstanceDesigner/00_基本的な用語メモ.html">
+            
+                    
+                    00_基本的な用語メモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../10_SubstanceDesigner/01_シーンを作成する.html">
+            
+                <a href="../../10_SubstanceDesigner/01_シーンを作成する.html">
+            
+                    
+                    01_シーンを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    95_用語メモ
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../95_用語メモ/CG関係用語.html">
+            
+                <a href="../../95_用語メモ/CG関係用語.html">
+            
+                    
+                    CG関係用語
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    98 Other
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.html">
+            
+                <a href="../../98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.html">
+            
+                    
+                    PC設定_VSCodeでPushができなくてハマったのでメモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    99 Link
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../99_Link/Blender関係.html">
+            
+                <a href="../../99_Link/Blender関係.html">
+            
+                    
+                    Blender関係
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBookで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Volumetricを使用する</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="volumetricfog&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;">Volumetric(Fog)&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;</h1>
+<p>&#x30B7;&#x30FC;&#x30F3;&#x5185;&#x3067; FOG &#x3092;&#x4F7F;&#x7528;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x306F; EEVEE &#x8A2D;&#x5B9A;&#x306E;&#x300C;Volumetric&#x300D;&#x3092; ON &#x306B;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/301bceb01a190446a9326ffe4a304eb1.png" alt=""></p>
+<p>StartEnd &#x3067;&#x3001;&#x30AB;&#x30E1;&#x30E9;&#x304B;&#x3089;&#x307F;&#x305F;&#x3069;&#x306E;&#x3050;&#x3089;&#x3044;&#x306E;&#x8DDD;&#x96E2;&#x307E;&#x3067;&#x306B; FOG &#x3092;&#x51FA;&#x3059;&#x304B;&#x3092;&#x5236;&#x9650;&#x3067;&#x304D;&#x308B;<br>&#xFF08;&#x304B;&#x3081;&#x3089;&#x306E; NearFar &#x3068;&#x540C;&#x3058;&#xFF09;</p>
+<h2 id="&#x30B7;&#x30FC;&#x30F3;&#x306B;-fog-&#x3092;&#x914D;&#x7F6E;&#x3059;&#x308B;">&#x30B7;&#x30FC;&#x30F3;&#x306B; FOG &#x3092;&#x914D;&#x7F6E;&#x3059;&#x308B;</h2>
+<p>&#x30B7;&#x30FC;&#x30F3;&#x306B;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x3068;&#x304D;&#x306F;&#x3001;&#x767A;&#x751F;&#x3057;&#x305F;&#x3044;&#x7BC4;&#x56F2;&#x3092;&#x56F2;&#x3080;&#x3088;&#x3046;&#x306A; MeshObject&#xFF08;Cube &#x306A;&#x3069;&#xFF09;&#x3092;&#x4F5C;&#x6210;&#x3057;<br>&#x4F5C;&#x6210;&#x3057;&#x305F; Object &#x306B;&#x65B0;&#x3057;&#x304F; Material &#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/1aa87cebc55a0d3a6c0f44eeb302a037.png" alt=""></p>
+<p>NodeEditor &#x3067;&#x3001;Principled Volume &#x3092;&#x4F5C;&#x6210;&#x3057;&#x3001;&#x305D;&#x308C;&#x3092;<br>MaterialOutput &#x306E; Volume &#x306B;&#x63A5;&#x7D9A;&#x3059;&#x308B;&#x3002;</p>
+<h2 id="&#x8A2D;&#x5B9A;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;">&#x8A2D;&#x5B9A;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;</h2>
+<h3 id="color-&#x3068;-density">Color &#x3068; Density</h3>
+<p><img src="https://gyazo.com/2ac653ff9c3eda2cc6d4d5565f818fe5.png" alt=""></p>
+<p>&#x4E3B;&#x306B;&#x6307;&#x5B9A;&#x3059;&#x308B;&#x306E;&#x306F; Color &#x3068; Density&#x3002;<br>Color &#x304C; Fog &#x305D;&#x306E;&#x3082;&#x306E;&#x306E;&#x8272;&#x3092;&#x6307;&#x3057;&#x3001;Density &#x306F;&#x5BC6;&#x5EA6;&#x3092;&#x6307;&#x3059;&#x3002;<br>&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306E; Density &#x3060;&#x3068;&#x3082;&#x6FC3;&#x3059;&#x304E;&#x308B;&#x306E;&#x3067;&#x3001;&#x73FE;&#x72B6;&#x3060;&#x3068;&#x5C0F;&#x6570;&#x70B9;&#x4EE5;&#x4E0B;&#x306E;&#x6570;&#x5024;&#x3092;&#x5165;&#x308C;&#x308B;&#x3068;&#x826F;&#x3044;&#x3002;</p>
+<p><img src="https://gyazo.com/9d76f47391af8e8f2dae06802eecd4bb.png" alt=""></p>
+<p>Color &#x306B;&#x306F;&#x3001;&#x30DC;&#x30ED;&#x30CE;&#x30A4;&#x30C6;&#x30AF;&#x30B9;&#x30C1;&#x30E3;&#x306A;&#x3069;&#x3082;&#x3055;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#x306E;&#x3067;&#x3001;&#x4E00;&#x5B9A;&#x306E;&#x8272;&#x3067;&#x306F;&#x306A;&#x304F;<br>&#x82E5;&#x5E72;&#x306E;&#x307E;&#x3070;&#x3089;&#x611F;&#x3092;&#x51FA;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x306A;&#x3069;&#x306F;&#x30C6;&#x30AF;&#x30B9;&#x30C1;&#x30E3;&#x3092;&#x6307;&#x3059;&#x3068;&#x96F0;&#x56F2;&#x6C17;&#x304C;&#x51FA;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/59e6dff60ff14a36ea2d0ca12d074cb3.png" alt=""></p>
+<p>Color &#x306F;&#x3001;Light &#x3092;&#x7167;&#x3089;&#x3055;&#x308C;&#x305F;&#x6642;&#x306E; FOG &#x306E;&#x8272;&#x3002;<br>Light &#x304C;&#x767D;&#x3067;&#x3042;&#x3063;&#x3066;&#x3082;&#x3001;</p>
+<p><img src="https://gyazo.com/15b4c3e5e58c9d2bf5551dc89d637698.png" alt=""></p>
+<p>Color &#x306B;&#x8272;&#x304C;&#x306F;&#x3044;&#x3063;&#x3066;&#x3044;&#x308C;&#x3070;&#x30E9;&#x30A4;&#x30C8;&#x304C;&#x5F53;&#x305F;&#x3063;&#x3066;&#x3044;&#x308B;&#x6240;&#x306F;&#x3001;Color &#x306B;&#x306A;&#x308B;&#x3002;</p>
+<p>&#x6FC3;&#x5EA6;&#x306F;&#x3001;Density &#x306E;&#x6570;&#x5024;&#x3068; MeshObject &#x306E;&#x30B5;&#x30A4;&#x30BA;&#x306B;&#x3088;&#x3063;&#x3066;&#x3082;&#x5927;&#x304D;&#x304F;&#x5909;&#x308F;&#x308B;&#x3002;<br>&#x3042;&#x307E;&#x308A;&#x306B;&#x3082;&#x5927;&#x304D;&#x306A; Mesh &#x3060;&#x3068;&#x3001;Density &#x306E;&#x6570;&#x5024;&#x3092;&#x304B;&#x306A;&#x308A;&#x4E0B;&#x3052;&#x305F;&#x3068;&#x3057;&#x3066;&#x3082;&#x771F;&#x3063;&#x9ED2;&#x306B;&#x306A;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x306E;&#x3067;&#x6CE8;&#x610F;&#x3002;</p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Blender &#x306E;&#x30B9;&#x30B1;&#x30FC;&#x30EB;&#x306F;&#x3001;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x300C;&#x30E1;&#x30FC;&#x30C8;&#x30EB;&#x300D;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x3002;<br>&#x306E;&#x3067;&#x3001;&#x3053;&#x306E;&#x30AA;&#x30D6;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x306E;&#x6570;&#x5024;&#x304C;&#x5B9F;&#x4E16;&#x754C;&#x3068;&#x6BD4;&#x8F03;&#x3057;&#x3066;&#x3042;&#x307E;&#x308A;&#x306B;&#x3082;&#x5E83;&#x3059;&#x304E;&#x308B;&#x3068;&#x3001;Density &#x304C;&#x771F;&#x3063;&#x9ED2;&#x306B;&#x306A;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x306E;&#x3067;<br>&#x6CE8;&#x610F;&#x304C;&#x5FC5;&#x8981;&#xFF08;&#x304B;&#x306A;&#x308A;&#x30CF;&#x30DE;&#x308B;&#xFF09;</p>
+</div></div></p>
+<p>&#x3042;&#x3068;&#x306F;&#x3001;&#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066; Light &#x3092;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x3002;</p>
+<h3 id="emissioncolor">EmissionColor</h3>
+<p><img src="https://gyazo.com/155635a5c613aec7e993e15ec175800d.png" alt=""></p>
+<p>EmissionColor &#x3068; EmissionStrength &#x306F;&#x3001;FOG &#x5168;&#x4F53;&#x306E;&#x8272;&#xFF08;Light &#x304C;&#x3042;&#x305F;&#x3063;&#x3066;&#x3044;&#x306A;&#x3044;&#x3068;&#x3053;&#x308D;&#x542B;&#x3081;&#x3066;&#x306E; Fog &#x306E;&#x8272;&#xFF09;<br>&#x3092;&#x52A0;&#x7B97;&#x3067;&#x5168;&#x4F53;&#x7684;&#x306B;&#x306E;&#x305B;&#x308B;&#x3002;<br>&#x306A;&#x306E;&#x3067;&#x3001;EmissionColor &#x305D;&#x306E;&#x3082;&#x306E;&#x306B;&#x660E;&#x308B;&#x3044;&#x8272;&#x3092;&#x5165;&#x308C;&#x308B;&#x3068;&#x3001;&#x7C21;&#x5358;&#x306B;&#x767D;&#x98DB;&#x3073;&#x3092;&#x8D77;&#x3053;&#x3059;&#x3002;<br>EmissionColor &#x304C;&#x9ED2;&#x306E;&#x5834;&#x5408;&#x306F;&#x3001;&#x306A;&#x306B;&#x3092;&#x3057;&#x3066;&#x3082;&#x3044;&#x308D;&#x306F;&#x5909;&#x308F;&#x3089;&#x306A;&#x3044;&#x3002;</p>
+<h3 id="absorptioncolor">AbsorptionColor</h3>
+<p>&#x5438;&#x53CE;&#x8272;&#x3002;<br>&#x73FE;&#x72B6;&#x3069;&#x3046;&#x3057;&#x3066;&#x304B;&#x306F;&#x5206;&#x304B;&#x3089;&#x306A;&#x3044;&#x304C;&#x3001;&#x3053;&#x306E;&#x6570;&#x5024;&#x3092;&#x4E0A;&#x3052;&#x308B;&#x3068;&#x3001;FOG &#x5168;&#x4F53;&#x304C; Light &#x306E;&#x88DC;&#x8272;&#x306B;&#x306A;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/0846277aa74eeee63a74140406c327af.png" alt=""></p>
+<p><img src="https://gyazo.com/badf109cb65dda4966ab69bfb7c3f765.png" alt=""></p>
+<p>FOGColor &#x304C;&#x9EC4;&#x8272;&#x3067;&#x3001;&#x5438;&#x53CE;&#x8272;&#x3092;&#x767D;&#x3068;&#x3059;&#x308B;&#x3068;&#x3001;FOG &#x306F;&#x88DC;&#x8272;&#x306E;&#x9752;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x3002;<br>&#x767D;&#x3067;&#x306F;&#x306A;&#x304F;&#x3001;RGB &#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x8272;&#x3092;&#x5165;&#x308C;&#x308B;&#x3068;&#x3001;&#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x8272;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;</p>
+<h2 id="&#x305D;&#x306E;&#x4ED6;&#x8B0E;&#x30A2;&#x30C8;&#x30EA;&#x30D3;&#x30E5;&#x30FC;&#x30C8;&#x306B;&#x3064;&#x3044;&#x3066;&#x306E;&#x30E1;&#x30E2;">&#x305D;&#x306E;&#x4ED6;&#x8B0E;&#x30A2;&#x30C8;&#x30EA;&#x30D3;&#x30E5;&#x30FC;&#x30C8;&#x306B;&#x3064;&#x3044;&#x3066;&#x306E;&#x30E1;&#x30E2;</h2>
+<p>Blackbody &#x3068;&#x306F;&#x300C;&#x9ED2;&#x4F53;&#x300D;<br>&#x3059;&#x3079;&#x3066;&#x306E;&#x6CE2;&#x9577;&#x306E;&#x53EF;&#x8996;&#x5149;&#x3092;&#x653E;&#x5C04;&#x3059;&#x308B;&#x5149;&#x6E90;&#x306F;&#x300C;&#x767D;&#x300D;&#x304F;&#x898B;&#x3048;&#x3001;<br>&#x53EF;&#x8996;&#x5149;&#x3092;&#x5168;&#x304F;&#x653E;&#x5C04;&#x3057;&#x306A;&#x3044;&#x5149;&#x6E90;&#xFF08;&#x3082;&#x306F;&#x3084;&#x300C;&#x5149;&#x6E90;&#x300D;&#x3068;&#x306F;&#x547C;&#x3079;&#x306A;&#x3044;&#x304C;&#xFF09;&#x306F;&#x300C;&#x9ED2;&#x300D;&#x304F;&#x898B;&#x3048;&#x308B;&#x3053;&#x3068;&#x306B;&#x306A;&#x308B;&#x3002;<br>&#x5B9F;&#x969B;&#x306E;&#x5149;&#x306F;&#x53EF;&#x8996;&#x5149;&#x4EE5;&#x5916;&#x306E;&#x6CE2;&#x9577;&#x3082;&#x542B;&#x3093;&#x3067;&#x304A;&#x308A;&#x3001;<br>&#x307E;&#x305F;&#x5149;&#x306F;&#x96FB;&#x78C1;&#x6CE2;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;&#x304C;&#x308F;&#x304B;&#x3063;&#x3066;&#x3044;&#x308B;&#x3002;<br>&#x5168;&#x3066;&#x306E;&#x6CE2;&#x9577;&#x306B;&#x308F;&#x305F;&#x3063;&#x3066;&#x96FB;&#x78C1;&#x6CE2;&#x3092;&#x5168;&#x304F;&#x53CD;&#x5C04;&#x3092;&#x3057;&#x306A;&#x3044;&#x7269;&#x4F53;&#x3092;&#x9ED2;&#x4F53;&#x3068;&#x547C;&#x3076;&#x3002;
+&#xFF08;Wikipedia&#xFF09;</p>
+<p>&#x70AD;&#x706B;&#x3084;&#x308D;&#x3046;&#x305D;&#x304F;&#x306E;&#x708E;&#x306A;&#x3069;&#x304C;&#x300C;&#x9ED2;&#x4F53;&#x300D;&#x3068;&#x547C;&#x3070;&#x308C;&#x308B;&#x3082;&#x306E;&#x3089;&#x3057;&#x3044;&#x3002;</p>
+<p>&#x203B;FOG &#x3067;&#x306F;&#x5B50;&#x306E;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x306F;&#x4F7F;&#x308F;&#x308C;&#x3066;&#x3044;&#x306A;&#x3044;&#xFF1F;&#x203B;</p>
+<p>&#x9ED2;&#x4F53;&#x306E;&#x53C2;&#x8003;</p>
+<ul>
+<li><a href="https://www.ccs-inc.co.jp/guide/column/light_color/vol33.html" target="_blank">https://www.ccs-inc.co.jp/guide/column/light_color/vol33.html</a></li>
+</ul>
+<p>tint &#x306F;&#x300C;&#x8272;&#x5408;&#x3044;&#x300D;</p>
+<p>Temperature &#x3082;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3044;&#x306A;&#x3044;&#xFF1F;&#xFF08;Fluid &#x95A2;&#x4FC2;&#x7528;&#x306E;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#xFF1F;&#xFF09;</p>
+<h3 id="irradiancevolume-&#x3068;&#x306E;&#x7D44;&#x307F;&#x5408;&#x308F;&#x305B;">IrradianceVolume &#x3068;&#x306E;&#x7D44;&#x307F;&#x5408;&#x308F;&#x305B;</h3>
+<p><img src="https://gyazo.com/b18a0d2f2f84a2e28fb5fd00e4cfc7e5.png" alt=""></p>
+<p>&#x771F;&#x3063;&#x8D64;&#x306A; Emission &#x30AA;&#x30D6;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3001;IrradianceVolume &#x3092;&#x914D;&#x7F6E;&#x3057;&#x3066;&#x307F;&#x305F;&#x304C;<br>Light &#x30D9;&#x30A4;&#x30AF;&#x306E;&#x52B9;&#x679C;&#x306F; Volumetric &#x306B;&#x306F;&#x4E57;&#x3089;&#x306A;&#x3044;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="SSSを設定する.html" class="navigation navigation-prev " aria-label="Previous page: SSSを設定する">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ガラス質感なマテリアルを作成.html" class="navigation navigation-next " aria-label="Next page: ガラス質感なマテリアルを作成">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Volumetricを使用する","level":"1.2.1.7","depth":3,"next":{"title":"ガラス質感なマテリアルを作成","level":"1.2.1.8","depth":3,"path":"docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md","ref":"docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md","articles":[]},"previous":{"title":"SSSを設定する","level":"1.2.1.6","depth":3,"path":"docs/10_Blender/EEVEE/SSSを設定する.md","ref":"docs/10_Blender/EEVEE/SSSを設定する.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hints"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"ja","gitbook":"*"},"file":{"path":"docs/10_Blender/EEVEE/Volumetricを使用する.md","mtime":"2018-12-27T13:36:10.444Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-30T10:17:56.718Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

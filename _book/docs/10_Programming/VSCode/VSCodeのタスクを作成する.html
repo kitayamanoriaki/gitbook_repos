@@ -1,0 +1,804 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>VSCodeのタスクを作成する · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="VSCodeの拡張機能を作る.html" />
+    
+    
+    <link rel="prev" href="00_npmの基本.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索すると入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    10 Blender
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    EEVEE
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../10_Blender/EEVEE/AOを作成する.html">
+            
+                <a href="../../10_Blender/EEVEE/AOを作成する.html">
+            
+                    
+                    AOを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../10_Blender/EEVEE/DepthOfFuildを使用する.html">
+            
+                <a href="../../10_Blender/EEVEE/DepthOfFuildを使用する.html">
+            
+                    
+                    DepthOfFuildを使用する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../10_Blender/EEVEE/MixRGBノードメモ.html">
+            
+                <a href="../../10_Blender/EEVEE/MixRGBノードメモ.html">
+            
+                    
+                    MixRGBノードメモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="../../10_Blender/EEVEE/ReflectionProbeとIrradianceVolumeの使い方.html">
+            
+                <a href="../../10_Blender/EEVEE/ReflectionProbeとIrradianceVolumeの使い方.html">
+            
+                    
+                    ReflectionProbeとIrradianceVolumeの使い方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="../../10_Blender/EEVEE/ScreenSpaceReflectionsを使用した反射.html">
+            
+                <a href="../../10_Blender/EEVEE/ScreenSpaceReflectionsを使用した反射.html">
+            
+                    
+                    ScreenSpaceReflectionsを使用した反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="../../10_Blender/EEVEE/SSSを設定する.html">
+            
+                <a href="../../10_Blender/EEVEE/SSSを設定する.html">
+            
+                    
+                    SSSを設定する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="../../10_Blender/EEVEE/Volumetricを使用する.html">
+            
+                <a href="../../10_Blender/EEVEE/Volumetricを使用する.html">
+            
+                    
+                    Volumetricを使用する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="../../10_Blender/EEVEE/ガラス質感なマテリアルを作成.html">
+            
+                <a href="../../10_Blender/EEVEE/ガラス質感なマテリアルを作成.html">
+            
+                    
+                    ガラス質感なマテリアルを作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    Scripts
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../10_Blender/Scripts/Blenderの開発環境を作る.html">
+            
+                <a href="../../10_Blender/Scripts/Blenderの開発環境を作る.html">
+            
+                    
+                    Blenderの開発環境を作る
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../../10_Blender/Scripts/VSCodeでAddon開発.html">
+            
+                <a href="../../10_Blender/Scripts/VSCodeでAddon開発.html">
+            
+                    
+                    VSCodeでAddon開発
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    基本操作
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../10_Blender/基本操作/Faceに対してマテリアルをアサイン.html">
+            
+                <a href="../../10_Blender/基本操作/Faceに対してマテリアルをアサイン.html">
+            
+                    
+                    Faceに対してマテリアルをアサイン
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../10_Blender/基本操作/Pivot位置調整.html">
+            
+                <a href="../../10_Blender/基本操作/Pivot位置調整.html">
+            
+                    
+                    Pivot位置調整
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../10_Blender/各種ショートカットまとめ.html">
+            
+                <a href="../../10_Blender/各種ショートカットまとめ.html">
+            
+                    
+                    各種ショートカットまとめ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    10 Programming
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    Python 3
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../Python3#">
+            
+                <span>
+            
+                    
+                    Import関係の構造
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    VS Code
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="00_npmの基本.html">
+            
+                <a href="00_npmの基本.html">
+            
+                    
+                    00_npmの基本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2.2" data-path="VSCodeのタスクを作成する.html">
+            
+                <a href="VSCodeのタスクを作成する.html">
+            
+                    
+                    VSCodeのタスクを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="VSCodeの拡張機能を作る.html">
+            
+                <a href="VSCodeの拡張機能を作る.html">
+            
+                    
+                    VSCodeの拡張機能を作る
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="キーバインドに指定スニペットを挿入を指定.html">
+            
+                <a href="キーバインドに指定スニペットを挿入を指定.html">
+            
+                    
+                    キーバインドに指定スニペットを挿入を指定
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    10 Substance Designer
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../10_SubstanceDesigner/00_基本的な用語メモ.html">
+            
+                <a href="../../10_SubstanceDesigner/00_基本的な用語メモ.html">
+            
+                    
+                    00_基本的な用語メモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../10_SubstanceDesigner/01_シーンを作成する.html">
+            
+                <a href="../../10_SubstanceDesigner/01_シーンを作成する.html">
+            
+                    
+                    01_シーンを作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    95_用語メモ
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../95_用語メモ/CG関係用語.html">
+            
+                <a href="../../95_用語メモ/CG関係用語.html">
+            
+                    
+                    CG関係用語
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    98 Other
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.html">
+            
+                <a href="../../98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.html">
+            
+                    
+                    PC設定_VSCodeでPushができなくてハマったのでメモ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    99 Link
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../99_Link/Blender関係.html">
+            
+                <a href="../../99_Link/Blender関係.html">
+            
+                    
+                    Blender関係
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBookで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >VSCodeのタスクを作成する</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="vscode-&#x306E;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;">VSCode &#x306E;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;</h1>
+<p><img src="https://gyazo.com/c7ebaf071cf1ffe0c835d38d781bacac.png" alt=""></p>
+<p>&#x307E;&#x305A;&#x3001;VSCode &#x306E;&#x30D1;&#x30EC;&#x30C3;&#x30C8;&#x304B;&#x3089;&#x3001;&#x30BF;&#x30B9;&#x30AF;&#x306E;&#x69CB;&#x6210;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/800a0590ab7215475dea29e6206c1bca.png" alt=""></p>
+<p>&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x304B;&#x3089;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x6210;&#x3000;&#x3068;&#x3044;&#x3046;&#x306E;&#x304C;&#x3067;&#x308B;&#x306E;&#x3067;&#x3001;</p>
+<p><img src="https://gyazo.com/fe1fd7ba416b939555a4c4723e436d5f.png" alt=""></p>
+<p>Others &#x3067;&#x4EFB;&#x610F;&#x306E;&#x5916;&#x90E8;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x51FA;&#x6765;&#x308B;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/ccd4fa6d92357e6fc1b38c56fe5c179f.png" alt=""></p>
+<p>&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;.vscode &#x4E0B;&#x306B; task.json &#x304C;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x308B;&#x3002;</p>
+<pre><code class="lang-json">{
+  <span class="hljs-comment">// See https://go.microsoft.com/fwlink/?LinkId=733558</span>
+  <span class="hljs-comment">// for the documentation about the tasks.json format</span>
+  <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>,
+  <span class="hljs-string">&quot;tasks&quot;</span>: [
+    {
+      <span class="hljs-string">&quot;label&quot;</span>: <span class="hljs-string">&quot;echo&quot;</span>,
+      <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;shell&quot;</span>,
+      <span class="hljs-string">&quot;command&quot;</span>: <span class="hljs-string">&quot;echo Hello&quot;</span>
+    }
+  ]
+}
+</code></pre>
+<p>&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x304C;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/1737d881997af08ffa72765bf9d2da2c.png" alt=""></p>
+<p>&#x4F5C;&#x6210;&#x304C;&#x3067;&#x304D;&#x305F;&#x3089;&#x3001;<strong>&#x30BF;&#x30B9;&#x30AF;&#x306E;&#x5B9F;&#x884C;</strong> &#x3092;&#x5B9F;&#x884C;&#x3057;&#x3001;</p>
+<p><img src="https://gyazo.com/f2d8f253f630c4a6dbc8af5459a5063b.png" alt=""></p>
+<p>&#x4F5C;&#x6210;&#x3057;&#x305F;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/8a3e3f19ed14f6b964fd976bcf6c9872.png" alt=""></p>
+<p>&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;&#x30BF;&#x30B9;&#x30AF;&#x306E;&#x51FA;&#x529B;&#x3092;&#x30B9;&#x30AD;&#x30E3;&#x30F3;&#x305B;&#x305A;&#x306B;&#x7D9A;&#x884C;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="https://gyazo.com/b5e250e59deaac20e445491c602c7992.png" alt=""></p>
+<p>&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;&#x306B;&#x7D50;&#x679C;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;<br>&#x3053;&#x3053;&#x3067;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x308B;&#x306E;&#x306F;&#x3001;task.json &#x5185;&#x3067;&#x6307;&#x5B9A;&#x3057;&#x305F; command &#x304C;&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;&#x4E0A;&#x3067;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x308B;&#x3002;</p>
+<h2 id="&#x305F;&#x3081;&#x3057;&#x306B;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x898B;&#x308B;">&#x305F;&#x3081;&#x3057;&#x306B;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x898B;&#x308B;</h2>
+<p>Gitbook &#x306E;&#x30B5;&#x30DE;&#x30EA;&#x30FC;&#x3092;&#x81EA;&#x52D5;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x4F5C;&#x6210;&#x3002;</p>
+<pre><code class="lang-create_summary.bat">book sm -r docs
+</code></pre>
+<p>&#x307E;&#x305A;&#x306F;&#x666E;&#x901A;&#x306B;&#x30B5;&#x30DE;&#x30EA;&#x30FC;&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3002;<br>&#x305F;&#x3060;&#x3057;&#x3001;&#x3053;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3067;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3068;&#x3001;&#x73FE;&#x5728;&#x306E; ROOT &#x3092;&#x57FA;&#x6E96;&#x306B;&#x3057;&#x3066;&#x968E;&#x5C64;&#x3092;&#x4F5C;&#x308B;&#x305F;&#x3081;<br>&#x4E00;&#x7AEF; docs &#x4E0B;&#x306B;&#x30B5;&#x30DE;&#x30EA;&#x30FC;&#x3092;&#x4F5C;&#x308A;&#x3001;&#x305D;&#x306E;&#x5F8C;&#x30EB;&#x30FC;&#x30C8;&#x306B;&#x79FB;&#x52D5;&#x3055;&#x305B;&#x305F;&#x3044;&#x3002;</p>
+<pre><code class="lang-update_summary.bat">call create_summary.bat
+move %~dp0\docs\SUMMARY.md %~dp0\SUMMARY.md
+</code></pre>
+<p>&#x305F;&#x3060;&#x3001;1 &#x3064;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3067;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068; book &#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x305F;&#x3068;&#x3053;&#x308D;&#x3067;&#x51E6;&#x7406;&#x304C;&#x6B62;&#x307E;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x306E;&#x3067;<br>&#x5225;&#x306E; bat &#x3092;&#x4F5C;&#x6210;&#x3057;&#x3066;&#x3001;call &#x3067;&#x547C;&#x3073;&#x51FA;&#x3057;&#x3002;<br>&#x305D;&#x306E;&#x5B9F;&#x884C;&#x5F8C;&#x3001;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x30B5;&#x30DE;&#x30EA;&#x30FC;&#x3092;&#x30EB;&#x30FC;&#x30C8;&#x306B;&#x79FB;&#x52D5;&#x3059;&#x308B;&#x3002;</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>,
+  <span class="hljs-string">&quot;tasks&quot;</span>: [
+    {
+      <span class="hljs-string">&quot;label&quot;</span>: <span class="hljs-string">&quot;update_summary&quot;</span>,
+      <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;shell&quot;</span>,
+      <span class="hljs-string">&quot;command&quot;</span>: <span class="hljs-string">&quot;update_summary&quot;</span>
+    }
+  ]
+}
+</code></pre>
+<p>&#x6700;&#x5F8C;&#x306B;&#x3001;tasks.json &#x306E;&#x4E2D;&#x8EAB;&#x3092;&#x7DE8;&#x96C6;&#x3059;&#x308B;&#x3002;<br>&#x3053;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x306E;&#x5B9F;&#x884C;&#x306F;&#x3001;&#x73FE;&#x5728;&#x306E; VSCode &#x306E;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;<br>&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x90E8;&#x5206;&#x3092; batch &#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x540D;&#x306B;&#x3059;&#x308C;&#x3070; OK&#x3002;</p>
+<p>&#x6BCE;&#x5EA6;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x306E;&#x306F;&#x3081;&#x3093;&#x3069;&#x304F;&#x3055;&#x3044;&#x306E;&#x3067;&#x3001;&#x7C21;&#x5358;&#x306B;&#x5B9F;&#x884C;&#x51FA;&#x6765;&#x308B;&#x3088;&#x3046;&#x306B;<br>&#x30D3;&#x30EB;&#x30C9;&#x30BF;&#x30B9;&#x30AF;&#x306B;&#x6307;&#x5B9A;&#x3059;&#x308B;&#x3002;<br>&#x305D;&#x306E;&#x5834;&#x5408;&#x306F;&#x3001;tasks.json &#x5185;&#x306E; task &#x306E;{}&#x5185;&#x306B;</p>
+<pre><code class="lang-json">      <span class="hljs-string">&quot;group&quot;</span>: {
+        <span class="hljs-string">&quot;kind&quot;</span>: <span class="hljs-string">&quot;build&quot;</span>,
+        <span class="hljs-string">&quot;isDefault&quot;</span>: <span class="hljs-literal">true</span>
+      }
+</code></pre>
+<p>&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3002;</p>
+<h2 id="&#x53C2;&#x8003;">&#x53C2;&#x8003;</h2>
+<ul>
+<li><a href="https://qiita.com/suzuki_sh/items/968ba9aeb312c8742f4e" target="_blank">https://qiita.com/suzuki_sh/items/968ba9aeb312c8742f4e</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="00_npmの基本.html" class="navigation navigation-prev " aria-label="Previous page: 00_npmの基本">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="VSCodeの拡張機能を作る.html" class="navigation navigation-next " aria-label="Next page: VSCodeの拡張機能を作る">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"VSCodeのタスクを作成する","level":"1.3.2.2","depth":3,"next":{"title":"VSCodeの拡張機能を作る","level":"1.3.2.3","depth":3,"path":"docs/10_Programming/VSCode/VSCodeの拡張機能を作る.md","ref":"docs/10_Programming/VSCode/VSCodeの拡張機能を作る.md","articles":[]},"previous":{"title":"00_npmの基本","level":"1.3.2.1","depth":3,"path":"docs/10_Programming/VSCode/00_npmの基本.md","ref":"docs/10_Programming/VSCode/00_npmの基本.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hints"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"ja","gitbook":"*"},"file":{"path":"docs/10_Programming/VSCode/VSCodeのタスクを作成する.md","mtime":"2018-12-22T04:52:24.291Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-30T10:17:56.718Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -11,13 +11,16 @@
     * [Volumetricを使用する](docs/10_Blender/EEVEE/Volumetricを使用する.md)
     * [ガラス質感なマテリアルを作成](docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md)
   - Scripts
-    * [Blenderの開発環境を作る](docs/10_Blender/Scripts/Blenderの開発環境を作る.md)
-    * [VSCodeでAddon開発](docs/10_Blender/Scripts/VSCodeでAddon開発.md)
+    * [00_Blenderの開発環境を作る](docs/10_Blender/Scripts/00_Blenderの開発環境を作る.md)
+    * [01_VSCodeでAddon開発](docs/10_Blender/Scripts/01_VSCodeでAddon開発.md)
+    * [05_BlenderのスクリプトをVSCodeから実行](docs/10_Blender/Scripts/05_BlenderのスクリプトをVSCodeから実行.md)
   - 基本操作
     * [Faceに対してマテリアルをアサイン](docs/10_Blender/基本操作/Faceに対してマテリアルをアサイン.md)
     * [Pivot位置調整](docs/10_Blender/基本操作/Pivot位置調整.md)
   * [各種ショートカットまとめ](docs/10_Blender/各種ショートカットまとめ.md)
 - 10 Programming
+  - Python 3
+    * [Import関係の構造](docs/10_Programming/Python3##/Import関係の構造.md)
   - VS Code
     * [00_npmの基本](docs/10_Programming/VSCode/00_npmの基本.md)
     * [VSCodeのタスクを作成する](docs/10_Programming/VSCode/VSCodeのタスクを作成する.md)
@@ -32,3 +35,4 @@
   * [PC設定_VSCodeでPushができなくてハマったのでメモ](docs/98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.md)
 - 99 Link
   * [Blender関係](docs/99_Link/Blender関係.md)
+* [GLOSSARY](docs/GLOSSARY.md)
