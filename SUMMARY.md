@@ -21,6 +21,7 @@
   - 基本操作
     * [Faceに対してマテリアルをアサイン](docs/10_Blender/基本操作/Faceに対してマテリアルをアサイン.md)
     * [Pivot位置調整](docs/10_Blender/基本操作/Pivot位置調整.md)
+    * [レンダリングカメラを操作する](docs/10_Blender/基本操作/レンダリングカメラを操作する.md)
   * [各種ショートカットまとめ](docs/10_Blender/各種ショートカットまとめ.md)
 - 10 Programming
   - Python 3
