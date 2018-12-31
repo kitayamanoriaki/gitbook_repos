@@ -1,5 +1,7 @@
 # VSCode でアドオン開発
 
+<!-- SUMMARY:VSCodeでアドオン開発-->
+
 ## Extension を導入する
 
 ![](https://gyazo.com/b1569bfa995692541966ac681db7d4e3.png)

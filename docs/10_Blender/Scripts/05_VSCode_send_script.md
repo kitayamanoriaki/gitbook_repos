@@ -1,5 +1,7 @@
 # Blender のスクリプトを VSCode から実行
 
+<!-- SUMMARY:BlenderのスクリプトをVSCodeから実行 -->
+
 まず、VSCode 側からスクリプトの実行をできるように準備する。  
 事前のじゅびは「VSCode での Addon 開発」を、参照。
 

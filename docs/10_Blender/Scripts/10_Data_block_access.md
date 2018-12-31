@@ -1,4 +1,6 @@
-# BlenderFile の中身をスクリプトから確認
+# Data-Block をスクリプトから確認
+
+<!-- SUMMARY:Data-Blockをスクリプトから確認 -->
 
 ![](https://gyazo.com/e91fda5afd2928d2bda150c867f73f29.png)
 

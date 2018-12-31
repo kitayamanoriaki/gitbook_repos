@@ -1,5 +1,7 @@
 # VSCode の拡張機能を作る
 
+<!-- SUMMARY:VSCodeの拡張機能を作る -->
+
 VSCode の拡張は TypeScript で作成する。
 
 ## 下準備

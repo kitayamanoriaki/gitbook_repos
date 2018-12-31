@@ -1,5 +1,7 @@
 # Import 関係の構造
 
+<!-- SUMMARY:Import 関係の構造 -->
+
 Blender の Addon 基本構造を確認しつつ、  
 Module 下にある.py ファイルのクラス本体のロードを出来るようにする。
 

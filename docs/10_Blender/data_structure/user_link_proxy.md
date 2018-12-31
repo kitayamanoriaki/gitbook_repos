@@ -1,5 +1,7 @@
 # Data-Block の User,Link,Proxy
 
+<!-- SUMMARY:Data-Block の User,Link,Proxy -->
+
 Data-Block とは、Blender の基本となるデータ単位で、  
 **mesh,object,material,texture,node-tree,scenes,text,brush,evenscreen**  
 が Data-Block の扱いになる。  

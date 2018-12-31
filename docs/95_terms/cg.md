@@ -1,5 +1,7 @@
 # CG 関係用語
 
+<!-- SUMMARY:CG 関係用語 -->
+
 ## NPR
 
 Non-Photorealistic Rendering の略。  
