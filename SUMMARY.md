@@ -34,7 +34,7 @@
 - 10 Substance Designer
   - [00\_基本的な用語メモ](docs/10_SubstanceDesigner/00_基本的な用語メモ.md)
   - [01\_シーンを作成する](docs/10_SubstanceDesigner/01_シーンを作成する.md)
-- 95\_用語メモ
+- 95\_`用語メモ
   - [CG 関係用語](docs/95_用語メモ/CG関係用語.md)
 - 98 Other
   - [PC 設定\_VSCode で Push ができなくてハマったのでメモ](docs/98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.md)
