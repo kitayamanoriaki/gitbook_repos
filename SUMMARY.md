@@ -24,8 +24,10 @@
 - Programming
   - PG_setup
     - [00_npm_install](docs/10_Programming/PG_setup/00_npm_install.md)
-  - Python3##
-    - [Import関係の構造](docs/10_Programming/Python3##/py_import.md)
+  - Python2
+    - [GitBookのSUMMARYファイルを自動作成](docs/10_Programming/Python2/gitbook_create_summary.md)
+  - Python3
+    - [Import関係の構造](docs/10_Programming/Python3/py_import.md)
   - VSCode
     - [VSCodeの拡張機能を作る](docs/10_Programming/VSCode/VSCode_extension.md)
     - [キーバインドに指定スニペットを挿入を指定](docs/10_Programming/VSCode/VSCode_snippet_sc.md)
