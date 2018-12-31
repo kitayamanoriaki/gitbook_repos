@@ -32,8 +32,6 @@
     - [VSCodeの拡張機能を作る](docs/10_Programming/VSCode/VSCode_extension.md)
     - [キーバインドに指定スニペットを挿入を指定](docs/10_Programming/VSCode/VSCode_snippet_sc.md)
     - [VSCodeのタスクを作成する](docs/10_Programming/VSCode/VSCode_task.md)
-- 用語
-  - [CG関係用語](docs/95_terms/cg.md)
 - Other
   - [PC設定_VSCodeでPushができなくてハマったのでメモ](docs/98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.md)
 - Link
