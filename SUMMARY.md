@@ -3,6 +3,7 @@
     - [レンダリングカメラを操作する](docs/10_Blender/basic_operation/blender_render_cam.md)
     - [Faceに対してマテリアルをアサイン](docs/10_Blender/basic_operation/face_assign.md)
     - [Pivot位置の調整](docs/10_Blender/basic_operation/object_pivot.md)
+    - [オブジェクトを対象にスナップさせる](docs/10_Blender/basic_operation/snap_object.md)
   - データ構造
     - [Data-Blockについて](docs/10_Blender/data_structure/data_block.md)
     - [Data-BlockのUser,Link,Proxy](docs/10_Blender/data_structure/user_link_proxy.md)

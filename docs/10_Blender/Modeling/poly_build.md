@@ -53,3 +53,7 @@ CTRL を押さないでクリックした場合は、三角ポリゴンが作成
 
 > このツールは、「Shrinkwrap モディファイア」と併用して
 > Mesh のリトポをするときに使用すると効果を発揮する。
+
+## 参考
+
+- https://www.youtube.com/watch?v=RFJ2XqnL8I4
