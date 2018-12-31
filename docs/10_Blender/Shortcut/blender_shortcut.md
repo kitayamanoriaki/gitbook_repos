@@ -38,24 +38,11 @@ ObjecctMode や Edge 編集などの作業モードを切り替える
 
 ![](https://gyazo.com/d835f996b81071bd99d00c9330f49ed1.png)
 
+### Grid にアタッチ (G -> Ctrl 押しながら移動)
+
 ## カメラ
 
 レンダリングカメラを、現在のビューカメラ位置に移動 ( Ctl + Alt + Numpad 0 )
-
-## Edit モード時
-
-### VertexMenu (Ctrl + V)
-
-### EdgeMenu (Ctrl + E)
-
-### FaceMenu (Ctrl + F)
-
-### Mesh 編集モード
-
-デフォルトだと、 1 Vtx 2 Edge 3 Face  
-ただし、数字をテンキーで利用した場合は使用出来ないので  
-別途登録をする。  
-(Alt +num1,num2,num3 に、それぞれ置きかえ)
 
 ## アニメーション関係
 

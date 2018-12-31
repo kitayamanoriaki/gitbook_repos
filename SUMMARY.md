@@ -1,7 +1,6 @@
 - Blender
   - 基本操作
     - [レンダリングカメラを操作する](docs/10_Blender/basic_operation/blender_render_cam.md)
-    - [Blenderの各種ショートカット](docs/10_Blender/basic_operation/blender_shortcut.md)
     - [Faceに対してマテリアルをアサイン](docs/10_Blender/basic_operation/face_assign.md)
     - [Pivot位置の調整](docs/10_Blender/basic_operation/object_pivot.md)
   - データ構造
@@ -16,11 +15,16 @@
     - [SSSを設定する](docs/10_Blender/EEVEE/SSSを設定する.md)
     - [Volumetricを使用する](docs/10_Blender/EEVEE/Volumetricを使用する.md)
     - [ガラス質感なマテリアルを作成](docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md)
+  - Modeling
+    - [PolyBuildの使い方](docs/10_Blender/Modeling/poly_build.md)
   - Scripts
     - [Blenderの開発環境を作る](docs/10_Blender/Scripts/00_VS_code_blender.md)
     - [VSCodeでアドオン開発](docs/10_Blender/Scripts/01_VSCode_addon.md)
     - [BlenderのスクリプトをVSCodeから実行](docs/10_Blender/Scripts/05_VSCode_send_script.md)
     - [Data-Blockをスクリプトから確認](docs/10_Blender/Scripts/10_Data_block_access.md)
+  - Shortcut
+    - [Blenderの各種ショートカット](docs/10_Blender/Shortcut/blender_shortcut.md)
+    - [モデリング時のショートカット](docs/10_Blender/Shortcut/blender_short_cut_modeling.md)
 - Programming
   - PG_setup
     - [00_npm_install](docs/10_Programming/PG_setup/00_npm_install.md)
