@@ -20,6 +20,8 @@
     - [ガラス質感なマテリアルを作成](docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md)
   - Modeling
     - [PolyBuildの使い方](docs/10_Blender/Modeling/poly_build.md)
+  - Rigging
+    - [Boneを作成してBindする](docs/10_Blender/Rigging/00_create_Armature.md)
   - Scripts
     - [Blenderの開発環境を作る](docs/10_Blender/Scripts/00_VS_code_blender.md)
     - [VSCodeでアドオン開発](docs/10_Blender/Scripts/01_VSCode_addon.md)
