@@ -22,6 +22,7 @@
     - [PolyBuildの使い方](docs/10_Blender/Modeling/poly_build.md)
   - Rigging
     - [Boneを作成してBindする](docs/10_Blender/Rigging/00_create_Armature.md)
+    - [ShapeKey(BlendShape)を作成する](docs/10_Blender/Rigging/blend_shape.md)
     - [IKを作成する](docs/10_Blender/Rigging/create_ik.md)
     - [Driverを作成する](docs/10_Blender/Rigging/drivers.md)
   - Scripts
