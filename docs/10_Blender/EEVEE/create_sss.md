@@ -1,5 +1,7 @@
 # SSS を設定する
 
+<!-- SUMMARY:SSS を設定する -->
+
 ![](https://gyazo.com/45b045fb3e32a619e40cdc0562f910e8.png)
 
 後ろからライトを当てたときの、うっすらと透けてみる SubSurfaceScattering を  

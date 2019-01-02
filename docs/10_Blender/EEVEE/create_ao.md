@@ -1,5 +1,7 @@
 # AmbientOcclusion を使用する
 
+<!-- SUMMARY:AmbientOcclusion を使用する -->
+
 ![](https://gyazo.com/fe2bdaa144c004f29b75c7c58058ec36.png)
 
 AO を使用したい場合は、まずは Scene の設定で AO を ON にする。  

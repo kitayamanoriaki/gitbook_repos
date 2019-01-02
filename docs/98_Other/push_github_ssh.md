@@ -1,5 +1,7 @@
 # VSCode から SSH 経由で Push
 
+<!-- SUMMARY:VSCode から SSH 経由で Push -->
+
 表題のことをやろうとしたらものすごくハマったのでメモ。
 
 https で PUSH する場合なら問題なくできるのだが、  

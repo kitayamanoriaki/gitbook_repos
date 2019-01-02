@@ -1,5 +1,7 @@
 # Volumetric(Fog)を使用する
 
+<!-- SUMMARY:Volumetric(Fog)を使用する -->
+
 シーン内で FOG を使用したい場合は EEVEE 設定の「Volumetric」を ON にする。
 
 ![](https://gyazo.com/301bceb01a190446a9326ffe4a304eb1.png)

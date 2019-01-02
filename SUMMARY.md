@@ -10,14 +10,14 @@
     - [Data-Blockについて](docs/10_Blender/data_structure/data_block.md)
     - [Data-BlockのUser,Link,Proxy](docs/10_Blender/data_structure/user_link_proxy.md)
   - EEVEE
-    - [AOを作成する](docs/10_Blender/EEVEE/AOを作成する.md)
-    - [DepthOfFuildを使用する](docs/10_Blender/EEVEE/DepthOfFuildを使用する.md)
-    - [MixRGBノードメモ](docs/10_Blender/EEVEE/MixRGBノードメモ.md)
-    - [ReflectionProbeとIrradianceVolumeの使い方](docs/10_Blender/EEVEE/ReflectionProbeとIrradianceVolumeの使い方.md)
-    - [ScreenSpaceReflectionsを使用した反射](docs/10_Blender/EEVEE/ScreenSpaceReflectionsを使用した反射.md)
-    - [SSSを設定する](docs/10_Blender/EEVEE/SSSを設定する.md)
-    - [Volumetricを使用する](docs/10_Blender/EEVEE/Volumetricを使用する.md)
-    - [ガラス質感なマテリアルを作成](docs/10_Blender/EEVEE/ガラス質感なマテリアルを作成.md)
+    - [AmbientOcclusionを使用する](docs/10_Blender/EEVEE/create_ao.md)
+    - [DepthOfFuildを使用する](docs/10_Blender/EEVEE/create_dof.md)
+    - [Volumetric(Fog)を使用する](docs/10_Blender/EEVEE/create_fog.md)
+    - [透明なガラス質感マテリアルを作成する](docs/10_Blender/EEVEE/create_glass.md)
+    - [SSSを設定する](docs/10_Blender/EEVEE/create_sss.md)
+    - [MixRGBノードのメモ](docs/10_Blender/EEVEE/mix_rgb.md)
+    - [ReflectionProbeとIrradianceVolume](docs/10_Blender/EEVEE/reflection_prove.md)
+    - [ScreenSpaceReflectionsを使用した反射](docs/10_Blender/EEVEE/ssr_reflection.md)
   - Modeling
     - [PolyBuildの使い方](docs/10_Blender/Modeling/poly_build.md)
   - Rigging
@@ -45,7 +45,7 @@
     - [キーバインドに指定スニペットを挿入を指定](docs/10_Programming/VSCode/VSCode_snippet_sc.md)
     - [VSCodeのタスクを作成する](docs/10_Programming/VSCode/VSCode_task.md)
 - Other
-  - [PC設定_VSCodeでPushができなくてハマったのでメモ](docs/98_Other/PC設定_VSCodeでPushができなくてハマったのでメモ.md)
+  - [VSCodeからSSH経由でPush](docs/98_Other/push_github_ssh.md)
 - Link
   - [Blender関係](docs/99_Link/Blender関係.md)
 - [GLOSSARY](docs/GLOSSARY.md)

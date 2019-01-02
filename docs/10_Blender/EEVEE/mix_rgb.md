@@ -1,5 +1,7 @@
 # MixRGB ノードのメモ
 
+<!-- SUMMARY:MixRGB ノードのメモ -->
+
 ![](https://gyazo.com/07e76472a7e10b5267f5fefbd6888fce.png)
 
 MixRGB は、その名の通り複数の Color を指定の方法で Mix して出力することができる。
