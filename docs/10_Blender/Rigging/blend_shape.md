@@ -46,3 +46,14 @@ BlendShape のように、あらかじめ形状を作成しておいてから
 このターゲットは、Maya の BlendShape とは違い  
 ShapeKey を作成した後にもーふターゲットを編集しても  
 ShapeKey は更新されない。
+
+## ShapeKey のポリゴンを増やす
+
+Maya の BlendShape とは違い、トポロジが同一でなくても ShapeKey を指定することができる。
+
+![](https://gyazo.com/66825318f9f8afb393c75b91a330a08e.gif)
+
+ShapeKey を追加後、Mesh を分割したりエクストルードしたりしたあと  
+Object に戻す →ShapeKey の Value を変更  
+というようにしても、Value の編集をすることで  
+形状を変更することができる。
