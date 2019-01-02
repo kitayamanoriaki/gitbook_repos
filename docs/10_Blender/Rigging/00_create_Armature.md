@@ -88,3 +88,7 @@ ObjectData 内の VertexGroup を切り替えれば OK。
 ![](https://gyazo.com/4141aa90e6782b2253b6704a2360326e.gif)
 
 あとは Bone を動かせば、Bind された Mesh が変形する。
+
+## 参考
+
+- http://nn-hokuson.hatenablog.com/entry/2017/10/03/205639
