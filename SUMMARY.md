@@ -1,6 +1,7 @@
 - Blender
   - 基本操作
     - [レンダリングカメラを操作する](docs/10_Blender/basic_operation/blender_render_cam.md)
+    - [BlenderからMayaにデータを移植する](docs/10_Blender/basic_operation/export_to_maya.md)
     - [Faceに対してマテリアルをアサイン](docs/10_Blender/basic_operation/face_assign.md)
     - モディファイアの使い方
       - [モディファイアを使用する](docs/10_Blender/basic_operation/modifier/00_start_modifier.md)
@@ -36,6 +37,7 @@
 - Programming
   - PG_setup
     - [00_npm_install](docs/10_Programming/PG_setup/00_npm_install.md)
+    - [pipenv_statup](docs/10_Programming/PG_setup/pipenv_statup.md)
   - Python2
     - [GitBookのSUMMARYファイルを自動作成](docs/10_Programming/Python2/gitbook_create_summary.md)
   - Python3

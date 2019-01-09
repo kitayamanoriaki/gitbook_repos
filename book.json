@@ -1,4 +1,5 @@
 {
   "language": "ja",
-  "plugins": ["hints"]
+  "plugins": ["hints"],
+  "theme": "simple"
 }
