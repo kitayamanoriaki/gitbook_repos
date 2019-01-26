@@ -38,6 +38,8 @@
     - [Blenderの各種ショートカット](docs/10_Blender/Shortcut/blender_shortcut.md)
     - [モデリング時のショートカット](docs/10_Blender/Shortcut/blender_short_cut_modeling.md)
 - Programming
+  - GitLab
+    - [DockerでRunnerを使用する_セットアップ編](docs/10_Programming/GitLab/docker_gitlab_ci.md)
   - PG_setup
     - [00_npm_install](docs/10_Programming/PG_setup/00_npm_install.md)
     - [pipenv_statup](docs/10_Programming/PG_setup/pipenv_statup.md)
