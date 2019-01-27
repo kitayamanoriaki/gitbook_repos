@@ -40,6 +40,7 @@
 - Programming
   - GitLab
     - [DockerでRunnerを使用する_セットアップ編](docs/10_Programming/GitLab/docker_gitlab_ci.md)
+    - [Windows環境でGitLabのCI/CDを実行する](docs/10_Programming/GitLab/gitlab_windows.md)
   - PG_setup
     - [00_npm_install](docs/10_Programming/PG_setup/00_npm_install.md)
     - [pipenv_statup](docs/10_Programming/PG_setup/pipenv_statup.md)

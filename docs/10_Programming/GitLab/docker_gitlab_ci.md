@@ -27,6 +27,8 @@ gitlab-runner install
 gitlab-runner start
 ```
 
+![](https://gyazo.com/2b77af47149d63c1960cabdafc68445c.png)
+
 GitLabRunner をサービスに登録する。  
 サービス登録が終わったら、GitLab への登録をする。
 
@@ -123,6 +125,18 @@ Docker で、image で指定したコンテナが作成されて
 stage で登録した JOB が実行される。  
 Docker で毎回環境が構築されるので、JOB のスクリプトなどで pip install XXXX を使用して  
 使用しているパッケージをいれるなどをしてあげる。
+
+## Shell 時に Job が走らない場合の対処法
+
+Windows 環境で CI を動かしたい場合は docker ではなく shell を使用するが、  
+ステータスはグリーンになっているにもかかわらず JOB がスタックしてしまい  
+処理が始まらない現象が発生した。
+
+![](https://gyazo.com/f69eb02c5f0a6253d88198ec7aa61fed.png)
+
+原因は、JOB にタグがない場合は走らないのチェックが Off の場合  
+Shell の処理が開始しないせいだった。  
+（Docker の場合は、OFF でも JOB が走った）
 
 Jenkins とは違い、yml 形式で実行内容を記載しないと行けない都合  
 若干敷居が高いきがするけれども、  
