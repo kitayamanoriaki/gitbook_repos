@@ -1,5 +1,5 @@
 {
   "language": "ja",
-  "plugins": ["hints"],
+  "plugins": ["hints", "back-to-top-button"],
   "theme": "simple"
 }
