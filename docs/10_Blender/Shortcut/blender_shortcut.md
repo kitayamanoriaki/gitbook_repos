@@ -4,6 +4,8 @@
 
 ## 一般的なもの
 
+### ファイルを開く (Ctrl + o)
+
 ### 検索メニューを表示する (F3)
 
 ![](https://gyazo.com/d3cb588ad7c33496500b7350171213b3.png)
@@ -15,6 +17,10 @@
 ### ツールバー表示（T）
 
 ![](https://gyazo.com/2bdf48c808e2575008464dea13abf8d9.png)
+
+### マウス位置にツールバー表示（Shift+Space）
+
+![](https://gyazo.com/face3560938ffb050d09481ae45da59d.png)
 
 ## 表示モード
 
