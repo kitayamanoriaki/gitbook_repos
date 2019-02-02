@@ -29,7 +29,7 @@
     - [Boneを作成してBindする](docs/10_Blender/Rigging/00_create_Armature.md)
     - [Boneの調整・設定](docs/10_Blender/Rigging/01_bone.md)
     - AutoRigPro
-      - [00_auto_rig_pro_001](docs/10_Blender/Rigging/AutoRigPro/00_auto_rig_pro_001.md)
+      - [AutoRigProのとりあえずの使い方](docs/10_Blender/Rigging/AutoRigPro/00_auto_rig_pro_001.md)
     - [ShapeKey(BlendShape)を作成する](docs/10_Blender/Rigging/blend_shape.md)
     - [IKを作成する](docs/10_Blender/Rigging/create_ik.md)
     - [Driverを作成する](docs/10_Blender/Rigging/drivers.md)

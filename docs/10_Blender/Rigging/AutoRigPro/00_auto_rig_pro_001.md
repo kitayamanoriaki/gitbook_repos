@@ -1,5 +1,7 @@
 # AutoRigPro でセットアップをする 1 とりあえずの使い方
 
+<!-- SUMMARY:AutoRigProのとりあえずの使い方 -->
+
 ## インストール
 
 ![](https://gyazo.com/1fd776bc848d7a52cc399fce431dec6f.png)
