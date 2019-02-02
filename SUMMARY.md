@@ -28,6 +28,8 @@
   - Rigging
     - [Boneを作成してBindする](docs/10_Blender/Rigging/00_create_Armature.md)
     - [Boneの調整・設定](docs/10_Blender/Rigging/01_bone.md)
+    - AutoRigPro
+      - [00_auto_rig_pro_001](docs/10_Blender/Rigging/AutoRigPro/00_auto_rig_pro_001.md)
     - [ShapeKey(BlendShape)を作成する](docs/10_Blender/Rigging/blend_shape.md)
     - [IKを作成する](docs/10_Blender/Rigging/create_ik.md)
     - [Driverを作成する](docs/10_Blender/Rigging/drivers.md)
@@ -52,6 +54,9 @@
     - [GitBookのSUMMARYファイルを自動作成](docs/10_Programming/Python2/gitbook_create_summary.md)
   - Python3
     - [Import関係の構造](docs/10_Programming/Python3/py_import.md)
+  - python_module
+    - PySide
+      - [PySideのGraphicsViewでItemを親子化したときの問題](docs/10_Programming/python_module/PySide/pyside_graphicsview_child_item.md)
   - VSCode
     - [VSCodeの拡張機能を作る](docs/10_Programming/VSCode/VSCode_extension.md)
     - [キーバインドに指定スニペットを挿入を指定](docs/10_Programming/VSCode/VSCode_snippet_sc.md)
