@@ -54,7 +54,7 @@
     - [GitBookのSUMMARYファイルを自動作成](docs/10_Programming/Python2/gitbook_create_summary.md)
   - Python3
     - [Import関係の構造](docs/10_Programming/Python3/py_import.md)
-  - python_module
+  - Python各種モジュール
     - PySide
       - [PySideのGraphicsViewでItemを親子化したときの問題](docs/10_Programming/python_module/PySide/pyside_graphicsview_child_item.md)
   - VSCode
