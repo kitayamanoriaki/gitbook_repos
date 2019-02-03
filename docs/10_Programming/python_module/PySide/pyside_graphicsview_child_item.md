@@ -92,8 +92,8 @@ class TestItem(QtGui.QGraphicsItem):
         painter.setBrush(self.color)
         painter.drawRoundedRect(self.__rect, 5, 5)
 
-    def hoverEnterEvent(self, e):
-
+    def hoverMoveEvent(self, e):
+        # hoverEnterEventからhoverMoveEventに修正。
         if self.isUnderMouse():
             self.color = QtGui.QColor('yellow')
         else:
@@ -124,17 +124,6 @@ setParentItem で親子化。
 この状態でマウスのホバーのところに「カーソルがオブジェクトの上に乗っているか」を判定する  
 if 文を追加。
 
-```python
-    def hoverEnterEvent(self, e):
-
-        if self.isUnderMouse():
-            self.color = QtGui.QColor('yellow')
-        else:
-            self.color = QtGui.QColor('pink')
-
-        self.update()
-```
-
 ![](https://gyazo.com/a6a890480ed4ccfa42252af5b73ce33d.gif)
 
 結果。
@@ -146,6 +135,28 @@ Item クラスには isUnderMouse 関数という、Item 範囲内にマウス�
 引数に Point を渡すことで Shape 内かどうかを判定して True/False を返す機能もあるので  
 Painter で図形を描画したときに、マウスが上に載っているかを判定して  
 何かしらの処理をするとかもできるはず。(たぶん)
+
+## 追記 (2009/2/3)
+
+自分が当初テストしていた時は、inUnderMouse で判定をしていたのは  
+「hoverEnterEvent」だったのだけれども  
+Enter で判定を行うと判定が外れてしまうことがあるという指摘がありました。  
+ので、
+
+```python
+    def hoverMoveEvent(self, e):
+
+        if self.isUnderMouse():
+            self.color = QtGui.QColor('yellow')
+        else:
+            self.color = QtGui.QColor('pink')
+
+        self.update()
+```
+
+マウス移動時に呼ばれる hoverMoveEvent 内でマウス移動時毎度評価するようにした方が  
+良いとのこと。  
+hoverMoveEvent にしたら、反応しなくなるなどの謎挙動はなくなりました。
 
 ## まとめ
 
