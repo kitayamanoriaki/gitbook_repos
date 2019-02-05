@@ -124,10 +124,10 @@ Proxy を作る前の rig オブジェクトは、このように PoseMode に�
 
 ![](https://gyazo.com/1df022873d1ba17a79f8cee634be3aa9.gif)
 
-## あとで Link 元を編集できるかテスト
-
 （一部モデルぶっとんでますが、それを除けば）  
 RIG の Proxy を動かすと、Link オブジェクト（編集不可）側のモデルもちゃんと動きました。
+
+## あとで Link 元を編集できるかテスト
 
 ![](https://gyazo.com/a90fd4b0a177c9e10215326df5d264e1.png)
 
