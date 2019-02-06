@@ -32,6 +32,7 @@
       - [AutoRigProのとりあえずの使い方](docs/10_Blender/Rigging/AutoRigPro/00_auto_rig_pro_001.md)
       - [LinkとProxyを使用してAnim用シーンを作る(1)](docs/10_Blender/Rigging/AutoRigPro/01_make_proxy.md)
     - [ShapeKey(BlendShape)を作成する](docs/10_Blender/Rigging/blend_shape.md)
+    - [コントローラーを作成する](docs/10_Blender/Rigging/create_controller.md)
     - [IKを作成する](docs/10_Blender/Rigging/create_ik.md)
     - [Driverを作成する](docs/10_Blender/Rigging/drivers.md)
   - Scripts
